@@ -27,9 +27,12 @@ Run the simulations of the manipulator robot using the position controller with:
       $ ros2 launch iiwa_bringup iiwa.launch.py
       
       
- If you want to use the torque controller, launch the simulations with:
+ In order to use the torque controller, launch the simulations with:
  
       $ ros2 launch iiwa_bringup iiwa.launch.py command_interface:="effort" robot_controller:="iiwa_arm_torque_controller"
+ To perform a zero-gravity simulation, change the values of gravity in the empty.world file in the ros2_iiwa/iiwa_description/gazebo/worlds/:
+      
+      <gravity>0 0 0</gravity>     
 
 --------------------------------
 
