@@ -14,7 +14,7 @@ Open the terminal, open the container and enter into the directory where you wan
 -------------------------------
 
 
-To build the packages, enter into the ROS2 workspace and build them with:
+To build the packages, access the ROS2 workspace and build them with:
 
       $ colcon build
 
@@ -25,11 +25,7 @@ Atfer this, use the source command:
 Run the simulations of the manipulator robot using the position controller with:
 
       $ ros2 launch iiwa_bringup iiwa.launch.py
-
-or move to the src/arm_description/launch directory and run the simulations:
-
-      $ cd src/ros2_iiwa/iiwa_bringup/launch
-      $ ros2 launch iiwa.launch.py
+      
       
  If you want to use the torque controller, launch the simulations with:
  
