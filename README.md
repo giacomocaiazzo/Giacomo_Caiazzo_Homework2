@@ -1,9 +1,9 @@
-Repository for Homework 2 of Robotics Labs course completed by Marco Bartone P38000237, Giacomo Caiazzo P38000236, Matteo De Simone P38000232, Nicola Monetti P38000238.
+Repository for Homework 2 of Robotics Labs course made by Marco Bartone P38000237, Giacomo Caiazzo P38000236, Matteo De Simone P38000232, Nicola Monetti P38000238.
 
 ## Robotics Lab - Homework 2
 
 ### Overview
-This is a report of the Homework 2 of Robotics Lab course using Docker and ROS2 with RVIZ2 and Gazebo. The repo contains the steps to download the folders from github and to run the launch file for the simulations of the builded manipulator robot with the position controller, the joint space inverse dynamic torque controller or in the operational space inverse dynamics torque controller.
+This is a report of the Homework 2 of Robotics Lab course. The repository contains the steps to download the folders from github and to run the launch file for the simulations of the manipulator robot with the position controller, the joint space inverse dynamic torque controller and the operational space inverse dynamics torque controller.
 
 ### Usage
 
